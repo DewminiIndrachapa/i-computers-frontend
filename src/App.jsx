@@ -9,9 +9,16 @@ function App() {
 
   return (
     <>
-    <ProductCard name = "Laptop" price = "500,000" image = "https://picsum.photos/id/0/200/303"/>
-    <ProductCard name = "Phone" price = "5,000" image = "https://picsum.photos/id/1/200/303"/>
-    <ProductCard name = "Watch" price = "3,000" image = "https://picsum.photos/id/2/200/303"/>
+     <div className='w-[600px] h-[600px] border bg-gray-400'>
+         <div className='w-[500px] h-[500px] border bg-yellow-200 flex  flex-col justify-center items-center'>
+             <div className='w-[100px] h-[100px] border bg-blue-700'></div>
+              <div className='w-[100px] h-[100px] border bg-green-700'></div>
+              <div className='w-[100px] h-[100px] border bg-red-700 fixed left-[550px] top-[550px]'></div>
+              <div className='w-[100px] h-[100px] border absolute left-[300px] bg-purple-700'></div>
+         </div>
+
+
+     </div>
     </>
   )
 }
